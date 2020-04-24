@@ -31,7 +31,7 @@ namespace CriticalThinking
             string helloW = "Hello World";
             for(int i = 0; i < helloW.Length; i++)
             {
-                if (i % 2 == 0)
+                if (i % 3 == 0)
                 {
                     Console.WriteLine(helloW[i]);
                 }
