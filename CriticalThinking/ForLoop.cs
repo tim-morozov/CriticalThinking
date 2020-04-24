@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class ForLoop
     {
-        static void Main(string[] args)
+        public void FirstLoop()
         {
-            ForLoop myLoop = new ForLoop();
-            myLoop.FirstLoop();
-            Console.ReadLine();
+            for(int i = 0; i <= 7; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
+        
     }
 }
