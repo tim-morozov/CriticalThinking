@@ -10,9 +10,7 @@ namespace CriticalThinking
     {
         static void Main(string[] args)
         {
-            ForLoop myLoop = new ForLoop();
-            WhileLoop newLoop = new WhileLoop();
-            newLoop.While();
+            CalculatorMadness myCalc = new CalculatorMadness();
             Console.ReadLine();
         }
     }
