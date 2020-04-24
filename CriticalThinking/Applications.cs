@@ -13,12 +13,9 @@ namespace CriticalThinking
         public double requiredRAM;
         public double requiredStorage;
 
-        public Applications(string applicationName, string applicationType, double reqRAM, double reqSto)
+        public Applications()
         {
-            ApplicationName = applicationName;
-            ApplicationType = applicationType;
-            requiredRAM = reqRAM;
-            requiredStorage = reqSto;
+            
         }
     }
 }
