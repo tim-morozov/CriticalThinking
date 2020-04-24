@@ -11,6 +11,7 @@ namespace CriticalThinking
         static void Main(string[] args)
         {
             CalculatorMadness myCalc = new CalculatorMadness();
+            myCalc.RunCalculations();
             Console.ReadLine();
         }
     }

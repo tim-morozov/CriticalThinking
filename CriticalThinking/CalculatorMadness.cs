@@ -8,16 +8,20 @@ namespace CriticalThinking
 {
     class CalculatorMadness
     {
-        public void AddTwoNumbers()
+        public int AddTwoNumbers(int firstNumber, int secondNumber)
         {
-            Console.WriteLine("Please enter the first number:");
-            int firstNumber = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Please enter the second number");
-            int secondNumber = int.Parse(Console.ReadLine());
-
             int result = firstNumber + secondNumber;
             Console.WriteLine("The result of this addition is: " + result);
+            return result;
+        }
+
+        public void RunCalculations()
+        {
+            
+           int result1 = AddTwoNumbers(8, 40);
+           int result2 =AddTwoNumbers(200, 50);
+           int result = AddTwoNumbers(result1, result2);
+            Console.WriteLine(result);
         }
     }
 }
