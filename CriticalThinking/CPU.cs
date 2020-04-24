@@ -22,9 +22,16 @@ namespace CriticalThinking
 
         }
 
-        public void CheckRequirements()
+        public void CheckRequirements(double appRAM, double neededStorage, double compRam, double avStorage)
         {
-
+            if(appRAM <= compRam && neededStorage <= avStorage)
+            {
+                Console.WriteLine("You may install!");
+            }
+            else
+            {
+                Console.WriteLine("You may not install!");
+            }
         }
     }
 }

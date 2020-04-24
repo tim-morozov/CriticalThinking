@@ -8,11 +8,11 @@ namespace CriticalThinking
 {
     class Motherboard
     {
-        string manufacturer;
-        CPU processor;
-        RAM tempMemory;
-        HardDrive storage;
-        GPU graphics;
+        public string manufacturer;
+        public CPU processor;
+        public RAM tempMemory;
+        public HardDrive storage;
+        public GPU graphics;
 
         public Motherboard(string manufacturer)
         {
@@ -25,7 +25,7 @@ namespace CriticalThinking
 
         public void InstallApplication(Applications newApp)
         {
-
+            storage.applicationsInHD.Add(newApp);
         }
     }
 }
