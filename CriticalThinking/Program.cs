@@ -11,7 +11,8 @@ namespace CriticalThinking
         static void Main(string[] args)
         {
             ForLoop myLoop = new ForLoop();
-            myLoop.HelloLoop();
+            WhileLoop newLoop = new WhileLoop();
+            newLoop.While();
             Console.ReadLine();
         }
     }
