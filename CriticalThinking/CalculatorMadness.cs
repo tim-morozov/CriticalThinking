@@ -8,10 +8,27 @@ namespace CriticalThinking
 {
     class CalculatorMadness
     {
-        public int AddTwoNumbers(int firstNumber, int secondNumber)
+        private int AddTwoNumbers(int firstNumber, int secondNumber)
         {
             int result = firstNumber + secondNumber;
             Console.WriteLine("The result of this addition is: " + result);
+            return result;
+        }
+
+        private int SubtractTwoNumbers(int firstNum, int secondNum)
+        {
+            int result = firstNum - secondNum;
+            return result;
+        }
+        private int MultiplyTwoNumbers(int firstNum, int secondNum)
+        {
+            int result = firstNum * secondNum;
+            return result;
+        }
+
+        private int DivideTwoNumbers(int firstNum, int secondNum)
+        {
+            int result = firstNum / secondNum;
             return result;
         }
 
