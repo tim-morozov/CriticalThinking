@@ -29,9 +29,9 @@ namespace CriticalThinking
         public void HelloLoop()
         {
             string helloW = "Hello World";
-            for(int i = 0; i <= helloW.Length; i++)
+            for(int i = 0; i < helloW.Length; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(helloW[i]);
             }
         }
         
