@@ -9,13 +9,13 @@ namespace CriticalThinking
     class HardDrive
     {
         double totalStorage;
-        double availableStorage;
+        public double availableStorage;
         public List<Applications> applicationsInHD;
 
         public HardDrive()
         {
             totalStorage = 256;
-            availableStorage = 256;
+            availableStorage = totalStorage;
             applicationsInHD = new List<Applications>();
         }
     }

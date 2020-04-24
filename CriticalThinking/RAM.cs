@@ -8,7 +8,7 @@ namespace CriticalThinking
 {
     class RAM
     {
-        double totalGB;
+        public double totalGB;
         string brand;
 
         public RAM()

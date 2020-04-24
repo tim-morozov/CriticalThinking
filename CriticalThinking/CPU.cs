@@ -17,20 +17,21 @@ namespace CriticalThinking
             name = "i5";
         }
 
-        public void ProcessInstall()
+        public double ProcessInstall(double neededStorage, double avStorage)
         {
-
+            double newMem = avStorage - neededStorage;
+            return newMem;
         }
 
-        public void CheckRequirements(double appRAM, double neededStorage, double compRam, double avStorage)
+        public bool CheckRequirements(double appRAM, double neededStorage, double compRam, double avStorage)
         {
             if(appRAM <= compRam && neededStorage <= avStorage)
             {
-                Console.WriteLine("You may install!");
+                return true;
             }
             else
             {
-                Console.WriteLine("You may not install!");
+                return false;
             }
         }
     }

@@ -25,7 +25,17 @@ namespace CriticalThinking
 
         public void InstallApplication(Applications newApp)
         {
-            storage.applicationsInHD.Add(newApp);
+            bool install = processor.CheckRequirements(newApp.requiredRAM, newApp.requiredStorage, tempMemory.totalGB, storage.availableStorage);
+            if (install = true)
+            {
+                processor.ProcessInstall(newApp.requiredStorage, storage.availableStorage);
+                storage.applicationsInHD.Add(newApp);
+                Console.WriteLine("Application installed!");
+            }
+            else
+            {
+                Console.WriteLine("You may not install");
+            }
         }
     }
 }
