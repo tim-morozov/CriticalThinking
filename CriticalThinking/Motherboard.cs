@@ -22,5 +22,10 @@ namespace CriticalThinking
             storage = new HardDrive();
             graphics = new GPU();
         }
+
+        public void InstallApplication(Applications newApp)
+        {
+
+        }
     }
 }
