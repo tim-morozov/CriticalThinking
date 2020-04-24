@@ -34,5 +34,28 @@ namespace CriticalThinking
                 return false;
             }
         }
+        public bool CheckGameReq( double gameEffMem, double compEffMem )
+        {
+
+            if(gameEffMem <= compEffMem)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool CheckGame(string type)
+        {
+            if(type == "Game")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

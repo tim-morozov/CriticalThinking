@@ -8,7 +8,7 @@ namespace CriticalThinking
 {
     class Game : Applications
     {
-        double reqEffectiveMemory;
+      
         public Game(string applicationName, string applicationType, double reqRAM, double reqSto, double reqEffect)
         {
             ApplicationName = applicationName;

@@ -12,6 +12,7 @@ namespace CriticalThinking
         public string ApplicationType;
         public double requiredRAM;
         public double requiredStorage;
+        public double reqEffectiveMemory;
 
         public Applications()
         {
