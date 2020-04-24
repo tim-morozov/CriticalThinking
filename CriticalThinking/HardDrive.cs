@@ -16,6 +16,7 @@ namespace CriticalThinking
         {
             totalStorage = 256;
             availableStorage = 256;
+            applicationsInHD = new List<Applications>() { new Applications() };
         }
     }
 }

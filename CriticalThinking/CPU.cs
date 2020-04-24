@@ -14,7 +14,17 @@ namespace CriticalThinking
         public CPU()
         {
             manufacturer = "intel";
-            name = "i5"
+            name = "i5";
+        }
+
+        public void ProcessInstall()
+        {
+
+        }
+
+        public void CheckRequirements()
+        {
+
         }
     }
 }
