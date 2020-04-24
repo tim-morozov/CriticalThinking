@@ -10,6 +10,7 @@ namespace CriticalThinking
     {
         double totalStorage;
         double availableStorage;
+        public List<Applications> applicationsInHD;
 
         public HardDrive()
         {
