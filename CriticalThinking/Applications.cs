@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Applications
+    abstract class Applications
     {
         public string ApplicationName;
         public string ApplicationType;
         public double requiredRAM;
         public double requiredStorage;
 
-        public Applications()
+        public Applications(string applicationName, string applicationType, double reqRAM, double reqSto)
         {
-            ApplicationName = "Visual Studio";
-            ApplicationType = "IDE";
-            requiredRAM = 6;
-            requiredStorage = 8.56;
+            ApplicationName = applicationName;
+            ApplicationType = applicationType;
+            requiredRAM = reqRAM;
+            requiredStorage = reqSto;
         }
     }
 }
