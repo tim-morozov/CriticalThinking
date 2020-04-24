@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class TextEdit : Applications
+    class TextEdit : Application
     {
         public TextEdit(string applicationName, string applicationType, double reqRAM, double reqSto)
         {

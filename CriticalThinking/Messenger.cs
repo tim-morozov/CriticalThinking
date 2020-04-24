@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Messenger : Applications
+    class Messenger : Application
     {
         public Messenger(string applicationName, string applicationType, double reqRAM, double reqSto)
         {

@@ -23,7 +23,7 @@ namespace CriticalThinking
             graphics = new GPU();
         }
 
-        public void InstallApplication(Applications newApp)
+        public void InstallApplication(Application newApp)
         {
             bool game = processor.CheckGame(newApp.ApplicationType);
             if (game == true)
@@ -38,7 +38,7 @@ namespace CriticalThinking
                 {
                     processor.ProcessInstall(newApp.requiredStorage, storage.availableStorage);
                     storage.applicationsInHD.Add(newApp);
-                    Console.WriteLine("Application installed!");
+                    Console.WriteLine(newApp.ApplicationName + " installed!");
                 }
                 else
                 {
@@ -46,7 +46,7 @@ namespace CriticalThinking
                 }
             }
         }
-        public void InstallGame(Applications newGame)
+        public void InstallGame(Application newGame)
         {
             bool install = processor.CheckGameReq(newGame.reqEffectiveMemory, graphics.effectiveMemory);
             install = processor.CheckRequirements(newGame.requiredRAM, newGame.requiredStorage, tempMemory.totalGB, storage.availableStorage);
@@ -55,7 +55,7 @@ namespace CriticalThinking
             {
                 processor.ProcessInstall(newGame.requiredStorage, storage.availableStorage);
                 storage.applicationsInHD.Add(newGame);
-                Console.WriteLine("Application installed!");
+                Console.WriteLine(newGame.ApplicationName + " installed!");
             }
             else
             {

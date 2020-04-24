@@ -8,7 +8,8 @@ namespace CriticalThinking
 {
     class Computer
     {
-        Motherboard motherboard;
+       public Motherboard motherboard;
+        
 
         public Computer()
         {

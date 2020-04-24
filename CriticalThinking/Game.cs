@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Game : Applications
+    class Game : Application
     {
       
         public Game(string applicationName, string applicationType, double reqRAM, double reqSto, double reqEffect)

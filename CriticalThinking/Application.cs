@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    abstract class Applications
+    abstract class Application
     {
         public string ApplicationName;
         public string ApplicationType;
@@ -14,7 +14,7 @@ namespace CriticalThinking
         public double requiredStorage;
         public double reqEffectiveMemory;
 
-        public Applications()
+        public Application()
         {
             
         }
