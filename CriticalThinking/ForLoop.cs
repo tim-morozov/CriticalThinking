@@ -15,6 +15,16 @@ namespace CriticalThinking
                 Console.WriteLine(i);
             }
         }
+
+        public void UserLoop()
+        {
+            Console.WriteLine("How many times would you like this loop to run?");
+            int end = int.Parse(Console.ReadLine());
+            for(int i = 0; i <= end; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
         
     }
 }
