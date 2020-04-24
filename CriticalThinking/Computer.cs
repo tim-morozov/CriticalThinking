@@ -8,5 +8,11 @@ namespace CriticalThinking
 {
     class Computer
     {
+        Motherboard motherboard;
+
+        public Computer()
+        {
+            motherboard = new Motherboard("Asus");
+        }
     }
 }
