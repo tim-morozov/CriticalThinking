@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class HardDrive
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        double totalStorage;
+        double availableStorage;
     }
 }

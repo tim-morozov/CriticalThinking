@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class RAM
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        double totalGB;
+        string brand;
     }
 }

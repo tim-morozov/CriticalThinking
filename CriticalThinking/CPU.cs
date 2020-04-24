@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class CPU
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        string manufacturer;
+        string name;
     }
 }

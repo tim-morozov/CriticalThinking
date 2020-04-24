@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class Motherboard
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        string manufacturer;
+        CPU processor;
+        RAM tempMemory;
+        HardDrive storage;
+        GPU graphics;
     }
 }

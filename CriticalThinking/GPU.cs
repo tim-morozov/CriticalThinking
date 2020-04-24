@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CriticalThinking
 {
-    class Program
+    class GPU
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        string manufacturer;
+        double effectiveMemory;
     }
 }
