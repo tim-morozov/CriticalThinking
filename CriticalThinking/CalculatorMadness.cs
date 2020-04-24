@@ -11,7 +11,6 @@ namespace CriticalThinking
         private int AddTwoNumbers(int firstNumber, int secondNumber)
         {
             int result = firstNumber + secondNumber;
-            Console.WriteLine("The result of this addition is: " + result);
             return result;
         }
 
@@ -34,10 +33,13 @@ namespace CriticalThinking
 
         public void RunCalculations()
         {
-            
-           int result1 = AddTwoNumbers(8, 40);
-           int result2 =AddTwoNumbers(200, 50);
-           int result = AddTwoNumbers(result1, result2);
+            int expResult = MultiplyTwoNumbers(2, 2);
+            int result1 = MultiplyTwoNumbers(40, 35);
+            int result2 = DivideTwoNumbers(result1, 4);
+            int result3 = AddTwoNumbers(6, 5);
+            int result4 = SubtractTwoNumbers(result3, result2);
+            int result =  AddTwoNumbers(result4, expResult);
+
             Console.WriteLine(result);
         }
     }
