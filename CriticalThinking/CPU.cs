@@ -10,5 +10,11 @@ namespace CriticalThinking
     {
         string manufacturer;
         string name;
+
+        public CPU()
+        {
+            manufacturer = "intel";
+            name = "i5"
+        }
     }
 }

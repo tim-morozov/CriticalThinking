@@ -10,5 +10,11 @@ namespace CriticalThinking
     {
         double totalStorage;
         double availableStorage;
+
+        public HardDrive()
+        {
+            totalStorage = 256;
+            availableStorage = 256;
+        }
     }
 }

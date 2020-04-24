@@ -10,5 +10,11 @@ namespace CriticalThinking
     {
         string manufacturer;
         double effectiveMemory;
+
+        public GPU()
+        {
+            manufacturer = "Asus";
+            effectiveMemory = 4000;
+        }
     }
 }

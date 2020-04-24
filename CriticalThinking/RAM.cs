@@ -10,5 +10,11 @@ namespace CriticalThinking
     {
         double totalGB;
         string brand;
+
+        public RAM()
+        {
+            totalGB = 16;
+            brand = "Corsair";
+        }
     }
 }
